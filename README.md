@@ -1,2 +1,46 @@
-# trivia-quiz-app
-Touro University GST MSIN 625 Advanced Web and Application Development Course Final Project
+<div align="center">
+<p align="center"><img src="https://img.shields.io/badge/License-MIT-yellow.svg"></p>
+
+<!-- PROJECT LOGO -->
+<br/>
+<div align="center">
+    <img src="images/touro-university-logo-blue.png" width=120 alt="Touro University Logo">
+    <h2 align="center">Graduate School of Technology</h2>
+    <h3 align="center">MSIN 625 Advanced Web and Application Development Course Class Project</h3>
+</div>
+  
+
+  <p align="center">
+    Trivia Quiz App With Vanilla Javascript
+    <br/> <br/>
+    <a href="https://amanmadov.github.io/trivia-quiz-app/index.html">View Demo</a>
+  </p>
+</div>
+
+
+<p align="center"><img src="https://amanmadov.github.io/trivia-quiz-app/images/screenshot.png"></p>
+
+<br/><br/>
+
+<!-- ABOUT THE PROJECT -->
+## About The Project
+
+Simple Quiz App with Vanilla Javascript. Gets random quiz question from Open Trivia Database for selected category and difficulty level.
+
+<br/>
+
+## Technologies Used
+ - Visual Studio Code Version: 1.66.1
+ - Google Chrome Version 100.0.4896.88
+
+<br/>
+
+
+<!-- CONTACT -->
+## Contact
+
+Nury Amanmadov - [@amanmadov](https://twitter.com/amanmadov) - amanmadov@gmail.com
+
+Project Link: [https://github.com/amanmadov/cookie-crud](https://github.com/amanmadov/cookie-crud)
+
+<p align="right">(<a href="#top">back to top</a>)</p>
