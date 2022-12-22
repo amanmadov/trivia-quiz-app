@@ -27,15 +27,21 @@
 
 Simple **Quiz App** with Vanilla Javascript. Gets random quiz question from `Open Trivia Database` for selected **category** and **difficulty** level.
 <p>
-  You can find the details about Open Trivia Database in the link:
+  You can find the details about <strong>Open Trivia Database</strong> in the link:
   <a href="https://opentdb.com/browse.php" target="_blank">Open Trivia Database</a>
 </p>
+<br>
+<p>
+  All the CSS code in this project are taken from this project:
+  <a href="https://www.codingnepalweb.com/quiz-app-with-timer-javascript/" target="_blank">Coding Nepal</a>
+</p>
+
 
 <br/>
 
 ## Technologies Used
- - Visual Studio Code Version: 1.66.1
- - Google Chrome Version 100.0.4896.88
+ - Visual Studio Code Version: 1.74.2
+ - Google Chrome Version 108.0.5359.125
 
 <br/>
 
