@@ -30,7 +30,6 @@ Simple **Quiz App** with Vanilla Javascript. Gets random quiz question from `Ope
   You can find the details about <strong>Open Trivia Database</strong> in the link:
   <a href="https://opentdb.com/browse.php" target="_blank">Open Trivia Database</a>
 </p>
-<br>
 <p>
   All the CSS code in this project are taken from this project:
   <a href="https://www.codingnepalweb.com/quiz-app-with-timer-javascript/" target="_blank">Coding Nepal</a>
