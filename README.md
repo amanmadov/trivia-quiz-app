@@ -20,14 +20,14 @@
 
 <p align="center"><img src="https://amanmadov.github.io/trivia-quiz-app/images/screenshot.png"></p>
 
-<br/><br/>
+<br/>
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-Simple Quiz App with Vanilla Javascript. Gets random quiz question from Open Trivia Database for selected category and difficulty level.
+Simple **Quiz App** with Vanilla Javascript. Gets random quiz question from `Open Trivia Database` for selected **category** and **difficulty** level.
 <p>
-  You can find the details about Open Trivia Database in the link:
+  You can find the details about `Open Trivia Database` in the link:
   <a href="https://opentdb.com/browse.php" target="_blank">Open Trivia Database</a>
 </p>
 
