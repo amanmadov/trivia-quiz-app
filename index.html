@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="MSIN 625 Final by Nury Amanmadov">
+    <title>MSIN 625 Final</title>
+    <link rel="stylesheet" href="css/style.css">
+    <!-- FontAweome CDN Link for Icons-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+</head>
+
+<body>
+	<section class="container">
+		<div class="dropdowns">
+			<div class="select">
+				<label>Select Category:</label>
+				<select name="category" id="category" >
+					<option value="9">General Knowledge</option>
+					<option value="10">Entertainment: Books</option>
+					<option value="11">Entertainment: Film</option>
+					<option value="12">Entertainment: Music</option>
+					<option value="13">Entertainment: Musicals &amp; Theatres</option>
+					<option value="14">Entertainment: Television</option>
+					<option value="15">Entertainment: Video Games</option>
+					<option value="16">Entertainment: Board Games</option>
+					<option value="17">Science &amp; Nature</option>
+					<option value="18">Science: Computers</option>
+					<option value="19">Science: Mathematics</option>
+					<option value="20">Mythology</option>
+					<option value="21">Sports</option>
+					<option value="22">Geography</option>
+					<option value="23">History</option>
+					<option value="24">Politics</option>
+					<option value="25">Art</option>
+					<option value="26">Celebrities</option>
+					<option value="27">Animals</option>
+					<option value="28">Vehicles</option>
+					<option value="29">Entertainment: Comics</option>
+					<option value="30">Science: Gadgets</option>
+					<option value="31">Entertainment: Japanese Anime &amp; Manga</option>
+					<option value="32">Entertainment: Cartoon &amp; Animations</option>
+				</select>
+			</div>
+			<div class="select">
+				<label>Select Difficulty:</label>
+				<select name="difficulty" id="difficulty">
+					<option value="easy">Easy</option>
+					<option value="medium">Medium</option>
+					<option value="hard">Hard</option>
+				</select>
+			</div>
+		</div>
+	</section>
+
+    <!-- Quiz Box -->
+    <div class="quiz_box activeQuiz">
+        <header>
+			<div class="title">Quiz Question</div>
+            
+            <div class="time_line"></div>
+        </header>
+        <section>
+            <div class="question_text"></div>
+            <div class="option_list"></div>
+        </section>
+
+        <!-- footer of Quiz Box -->
+        <footer>
+            <div class="total_question">Score: <span id="score">Correct <strong>0</strong> Wrong <strong>0</strong></span></div>
+            <button class="next_btn show">Get First Question</button>
+        </footer>
+    </div>
+
+	<!-- Footer for Category and Difficulty -->
+	<div class="fixed-footer">
+		<br>
+		<p id="info"></p>
+	</div>
+
+    <!-- CDN link for jQuery library -->
+	<script src="https://code.jquery.com/jquery-3.6.1.js" integrity="sha256-3zlB5s2uwoUzrXK3BT7AX3FyvojsraNFxCc2vC/7pNI=" crossorigin="anonymous"></script>
+    <script src="js/script.js"></script>
+
+</body>
+</html>
