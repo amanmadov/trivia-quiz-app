@@ -76,7 +76,7 @@ const validateOption = (e) => {
     let currentAnswer = e.target.textContent;
     let answer = e.target;
     questionButton.innerHTML = 'Get Another Question';
-
+    console.log(currentAnswer, correctAnswer)
     // if selected answer is correct
     if (currentAnswer.normalize() === correctAnswer.normalize()) {
         correctTotal++;
