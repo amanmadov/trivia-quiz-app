@@ -78,7 +78,7 @@ const validateOption = (e) => {
     questionButton.innerHTML = 'Get Another Question';
 
     // if selected answer is correct
-    if (currentAnswer === correctAnswer) {
+    if (currentAnswer.normalize() === correctAnswer.normalize()) {
         correctTotal++;
         updateLabel();
         answer.classList.add("correct"); // adding green background color to correct selected option
