@@ -46,7 +46,7 @@ const resetQuestion = () => {
 // Handles response data for sucessfull API request
 const handleData = (response) => {
     let question = response.results[0].question;
-    correctAnswer = response.results[0].correct_answer;
+    correctAnswer = response.results[0].correct_answer.replace("&#039;","'");
     let incorrectAnswers = response.results[0].incorrect_answers;
     let options = [correctAnswer, ...incorrectAnswers];
     let shuffledOptions = shuffleOptions(options);
