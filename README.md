@@ -3,7 +3,7 @@
 <!-- PROJECT LOGO -->
 <br/>
 <div align="center">
-    <h3 align="center">Graduate School of Technology<br>MSIN 625-Advanced Web and Application Development Course Final Project</h3>
+    <h3 align="center">Touro University<br>Graduate School of Technology<br>MSIN 625-Advanced Web and Application Development Course Final Project</h3>
 </div>
 
 <br/>
